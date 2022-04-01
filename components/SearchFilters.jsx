@@ -67,7 +67,7 @@ export default function SearchFilters() {
               placeholder='Type Here'
               value={searchTerm}
               w='300px'
-              focusBorderColor='gray.300'
+              focusBorderColor='red.300'
               onChange={(e) => setSearchTerm(e.target.value)}
             />
             {searchTerm !== '' && (
@@ -93,7 +93,7 @@ export default function SearchFilters() {
                       setSearchTerm(location.name);
                     }}
                   >
-                    <Text cursor='pointer' bg='gray.200' p='2' borderBottom='1px' borderColor='gray.100' >
+                    <Text cursor='pointer' bg='red.200' p='2' borderBottom='1px' borderColor='gray.100' >
                       {location.name}
                     </Text>
                   </Box>

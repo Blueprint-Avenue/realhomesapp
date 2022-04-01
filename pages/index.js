@@ -31,7 +31,7 @@ export const Banner = ({
 				<br />
 				{desc2}
 			</Text>
-			<Button fontSize="xl" bg="blue.300" color="white">
+			<Button fontSize="xl" bg="red.300" color="white">
 				<Link href={linkName}>
 					<a>{buttonText}</a>
 				</Link>
